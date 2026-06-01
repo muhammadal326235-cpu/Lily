@@ -8,11 +8,7 @@
 ## Table of Contents
 
 - [Features Overview](#features-overview)
-- [Quick Setup](#quick-setup)
-- [Manual Installation Steps](#manual-installation-steps)
-- [Support Server](https://discord.gg/QnWNz2dKCE)
-- [Required Bot Intents](#bot-intents)
-- [Contributing](#contributing)
+- [License](#license)
 
 <a name="features-overview"></a>
 ## Features Overview
@@ -84,7 +80,7 @@ Lily offers a complete suite of tools for Discord server management and communit
 </td>
 </tr>
 </table>
-
+<a name="license"></a>
 ## License
 
 Lily is released under the Apache License 2.0.
