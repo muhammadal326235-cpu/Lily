@@ -172,6 +172,10 @@ export async function createInitialHelpMenu(client) {
         .setURL("https://discord.gg/QnWNz2dKCE")
         .setStyle(ButtonStyle.Link);
 
+    const Zey = new ButtonBuilder()
+        .setLabel("Learn More.")
+        .setStyle(ButtonStyle.Primary)
+
     const selectRow = createSelectMenu(
         CATEGORY_SELECT_ID,
         "Select to view the commands",
