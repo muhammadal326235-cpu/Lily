@@ -158,7 +158,7 @@ export async function createInitialHelpMenu(client) {
     );
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "Made by Zey" 
     });
     embed.setTimestamp();
 
@@ -170,11 +170,6 @@ export async function createInitialHelpMenu(client) {
     const supportButton = new ButtonBuilder()
         .setLabel("Support Server")
         .setURL("https://discord.gg/QnWNz2dKCE")
-        .setStyle(ButtonStyle.Link);
-
-    const touchpointButton = new ButtonBuilder()
-        .setLabel("Learn from Touchpoint")
-        .setURL("https://www.youtube.com/@TouchDisc")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
