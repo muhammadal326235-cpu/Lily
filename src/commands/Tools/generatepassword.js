@@ -10,9 +10,9 @@ export default {
         .setDescription('Generate a strong, random password')
         .addIntegerOption(option =>
             option.setName('length')
-                .setDescription('Password length (default: 16, max: 50)')
+                .setDescription('Password length (default: 16, max: 355)')
                 .setMinValue(8)
-                .setMaxValue(50)
+                .setMaxValue(355)
                 .setRequired(false))
         .addBooleanOption(option =>
             option.setName('uppercase')
