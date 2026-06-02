@@ -12,7 +12,7 @@ export default {
             option.setName('length')
                 .setDescription('Password length (default: 16, max: 355)')
                 .setMinValue(8)
-                .setMaxValue(355)
+                .setMaxValue(1000)
                 .setRequired(false))
         .addBooleanOption(option =>
             option.setName('uppercase')
@@ -47,7 +47,7 @@ export default {
                 const includeNumbers = interaction.options.getBoolean('numbers') ?? true;
                 const includeSymbols = interaction.options.getBoolean('symbols') ?? true;
                 
-                if (length < 8 || length > 355) {
+                if (length < 8 || length > 1000) {
                     await InteractionHelper.safeEditReply(interaction, {
                         embeds: [errorEmbed('❌ Invalid Length', 'Password must be 8-50 characters. You provided: ' + length)],
                     });
