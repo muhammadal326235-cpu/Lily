@@ -47,7 +47,7 @@ export default {
                 const includeNumbers = interaction.options.getBoolean('numbers') ?? true;
                 const includeSymbols = interaction.options.getBoolean('symbols') ?? true;
                 
-                if (length < 8 || length > 50) {
+                if (length < 8 || length > 355) {
                     await InteractionHelper.safeEditReply(interaction, {
                         embeds: [errorEmbed('❌ Invalid Length', 'Password must be 8-50 characters. You provided: ' + length)],
                     });
