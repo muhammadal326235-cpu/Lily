@@ -11,7 +11,7 @@ export default {
         .addIntegerOption(option =>
             option.setName('length')
                 .setDescription('Password length (default: 16, max: 355)')
-                .setMinValue(8)
+                .setMinValue(1)
                 .setMaxValue(1000)
                 .setRequired(false))
         .addBooleanOption(option =>
