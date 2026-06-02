@@ -3,7 +3,7 @@ import {
     EmbedBuilder
 } = require('discord.js');
 
-const accounts = require('../../accounts.json');
+const accounts = require('../../../accounts.json');
 
 module.exports = {
     data: new SlashCommandBuilder()
