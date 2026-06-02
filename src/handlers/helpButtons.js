@@ -44,7 +44,7 @@ export const helpBugReportButton = {
         const githubButton = new ButtonBuilder()
             .setLabel('🐛 Report Bug on GitHub')
             .setStyle(ButtonStyle.Link)
-            .setURL('https://github.com/codebymitch/TitanBot/issues');
+            .setURL('https://github.com/muhammadal326235-cpu/Issues/issues/1#issue-4564138806');
 
         const bugRow = new ActionRowBuilder().addComponents(githubButton);
 
@@ -60,7 +60,7 @@ export const helpBugReportButton = {
             color: 'error'
         });
         bugReportEmbed.setFooter({
-            text: 'TitanBot Bug Reporting System',
+            text: 'Lily Bug Reporting System',
             iconURL: client.user.displayAvatarURL()
         });
         bugReportEmbed.setTimestamp();
